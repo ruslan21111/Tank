@@ -4,13 +4,13 @@ class Main {
 
 
         Tank tank = new Tank();
-        tank.goForward(10);
+        tank.goForward(30);
         tank.printPosition();
         //  tank.turnRight();
-        tank.goForward(50);
+        tank.goForward(40);
         tank.printPosition();
         //  tank.turnLeft();
-        tank.goBackward(100);
+        tank.goBackward(1500);
         tank.printPosition();
 
     }
