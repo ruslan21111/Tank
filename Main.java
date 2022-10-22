@@ -4,6 +4,8 @@ class Tank {
      int y;
     int dir;
     int v;
+    int speed;
+    int maxSpeed;
 
 
     //мы считаем, что dir может принимать 4 значения
